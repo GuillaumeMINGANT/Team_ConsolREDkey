@@ -9,9 +9,9 @@ namespace Team_ConsolREDkey
         //Attributs
         protected int m_Exercice5_6;
         //Constructeur
-        public Exercice5_6()
+        public Exercice5_6(int m_Exercice5_6)
         {
-
+            this.m_Exercice5_6 = m_Exercice5_6;
         }
         //destructeur
         ~Exercice5_6()
@@ -19,12 +19,14 @@ namespace Team_ConsolREDkey
 
         }
         //Methode
-        public int SommeENTIER(int select)
+        public void set_m_Exercice5_6(int m_Exercice5_6)
         {
-            EntryINT
-            select = EntryINT.Result(0);
+            this.m_Exercice5_6 = m_Exercice5_6;
+        }
 
-            for (int i = 0; i < select + 1; i++)
+        public int SommeENTIER()
+        {
+            for (int i = 0; i < m_Exercice5_6 + 1; i++)
             {
                 m_Exercice5_6 += i;
             }
