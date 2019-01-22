@@ -27,5 +27,15 @@ namespace Team_ConsolREDkey
         {
             return m_exercice5_7;
         }
+        public int factoriel()
+        {
+            for(int i=1; i < m_exercice5_7+1;i++)
+            {
+                m_exercice5_7 = m_exercice5_7*i;
+            }
+            return m_exercice5_7;
+        }
+            
+
     }
 }

@@ -27,5 +27,23 @@ namespace Team_ConsolREDkey
         {
             return m_exercice5_8;
         }
+
+        public void Max_in_20_entry()
+        {
+            EntryINT e1 = new EntryINT(0);
+
+            for (int i = 0; i<20; i++)
+            {
+                m_exercice5_8 = 0;
+                Console.Write("nombre numero "+i+" : ")
+                int value = e1.Result(0);
+                Console.Write(value);
+                if (m_exercice5_8==0)
+                {
+
+                }
+            }
+            return m_exercice5_8;
+        }
     }
 }
