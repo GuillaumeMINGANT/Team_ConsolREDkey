@@ -23,6 +23,10 @@ namespace Team_ConsolREDkey
         {
             this.m_Exercice5_6 = m_Exercice5_6;
         }
+        public int Get_m_m_Exercice5_6()
+        {
+            return m_Exercice5_6;
+        }
 
         public int SommeENTIER()
         {

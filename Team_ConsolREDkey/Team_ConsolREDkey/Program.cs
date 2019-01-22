@@ -8,6 +8,7 @@ namespace Team_ConsolREDkey
         {
             Console.WriteLine("Exo 5.5");
 
+            Console.WriteLine("ANSWER");
 
 
             Console.WriteLine("Exo 5.6");
